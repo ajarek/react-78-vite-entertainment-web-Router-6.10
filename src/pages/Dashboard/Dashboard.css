@@ -1,0 +1,9 @@
+.dashboard {
+  width: 100%;
+  min-height: 100vh;
+  padding-left:calc(96px + 32px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(283px, 1fr));
+  gap: 1rem;
+  place-content: center;
+}
