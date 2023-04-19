@@ -2,16 +2,68 @@
   width: 100%;
   min-height: 100vh;
   padding: 16px 16px 16px 140px;
-  
+}
+.dashboard h2 {
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 300;
+}
+.scroll-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 470px);
+  gap: 1rem;
+  place-content: center;
+  overflow: hidden;
+  padding-left: 340px;
+  cursor: grabbing;
+  transition: all 0.6s ease-in-out;
  
+}
+.scroll-container .wrapper-data{
+  position: relative;
+}
+.scroll-container .wrapper-data .title{
+  position: absolute;
+  bottom:23px;
+  left: 23px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.scroll-container .wrapper-data .info-wrapper{
+  position: absolute;
+  bottom:56px;
+  left: 23px;
+  font-size: 1rem;
+  font-weight: 400;
 }
 .dashboard-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(283px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(238px, 1fr));
   gap: 1rem;
   place-content: center;
+  position: relative;
 }
-.wrapper-data img {
+.dashboard img {
   width: 100%;
   object-fit: cover;
+  user-select: none;
+}
+.info-wrapper{
+  font-size: 0.9rem;
+  font-weight: 400;
+  display: flex;
+  color: #5a698f;
+}
+.info-wrapper .type{
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.title{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.icon{
+  margin-right: 5px;
 }
