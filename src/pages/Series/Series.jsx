@@ -8,13 +8,17 @@ import Search from '../../components/Search/Search'
 
 import './Series.css'
 const Series = () => {
+  const [searchValue, setSearchValue] = useState('')
  const dataSeries=data.filter((dt)=>dt.type==='TV Series')
   return (
     <div className='series'>
-      <Search placeholder={'Search for movies or TV series'} />
+      <Search placeholder={'Search for movies or TV series'} value={searchValue}
+        onChange={(e)=>setSearchValue(e.target.value)} />
            <h2>TV Series</h2>
       <div className='dashboard-wrapper'>
-        { dataSeries.map((dt) => {
+        { dataSeries.filter((item) =>
+            item.title.toLowerCase().includes(searchValue.toLowerCase())
+          ).map((dt) => {
           if (dt.id > 3) {
             return (
               <div

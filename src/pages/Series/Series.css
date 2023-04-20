@@ -17,6 +17,7 @@
 }
 .wrapper-data{
   position: relative;
+  max-width: 470px;
 }
 .series img {
   width: 100%;

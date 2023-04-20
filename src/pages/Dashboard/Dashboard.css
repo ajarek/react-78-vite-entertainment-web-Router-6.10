@@ -68,6 +68,7 @@
 }
 .wrapper-data{
   position: relative;
+  max-width: 470px;
 }
 .dashboard img {
   width: 100%;

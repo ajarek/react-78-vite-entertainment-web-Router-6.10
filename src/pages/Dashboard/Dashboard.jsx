@@ -8,10 +8,11 @@ import './Dashboard.css'
 import ScrollContainer from 'react-indiana-drag-scroll'
 
 const Dashboard = () => {
-
+  const [searchValue, setSearchValue] = useState('')
   return (
     <div className='dashboard'>
-      <Search placeholder={'Search for movies or TV series'} />
+      <Search placeholder={'Search for movies or TV series'}  value={searchValue}
+        onChange={(e)=>setSearchValue(e.target.value)}/>
       <h2>Trending</h2>
      
       <ScrollContainer vertical={false} className="scroll-container">
@@ -41,7 +42,9 @@ const Dashboard = () => {
       
       <h2>Recommended for you</h2>
       <div className='dashboard-wrapper'>
-        {data.map((dt) => {
+        {data.filter((item) =>
+            item.title.toLowerCase().includes(searchValue.toLowerCase())
+          ).map((dt) => {
           if (Number(dt.id) > 3) {
             return (
               <div
