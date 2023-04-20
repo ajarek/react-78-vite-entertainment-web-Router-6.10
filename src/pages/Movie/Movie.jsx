@@ -29,7 +29,7 @@ const Movie = () => {
                   <span className='type'>{dt.type==='Movie'?<MdMovie className='icon'/>:<BsPersonVideo className='icon'/>}{dt.type}<BsDot/></span>
                   <span>{dt.allowed}</span>
                 </div>
-                <p className='title'e>{dt.title}</p>
+                <p className='title'>{dt.title}</p>
               </div>
             )
           }

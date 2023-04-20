@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { MdMovie, MdLocalMovies } from 'react-icons/md'
 import { SiWindows11 } from 'react-icons/si'
 import { ImUser } from 'react-icons/im'
@@ -7,40 +7,32 @@ import { BsPersonVideo } from 'react-icons/bs'
 import './Nav.css'
 
 const Nav = () => {
-  console.log(NavLink)
-  const [active, setActive] = useState(false)
   return (
     <nav className='nav'>
       <MdMovie
         color='#fc4747'
         size={50}
       />
-      <NavLink
+      <Link
         className={'link'}
         to={'/'}
       >
-        <SiWindows11  size={25} />
-      </NavLink>
-      <NavLink
+        <SiWindows11 size={25} />
+      </Link>
+      <Link
         className='link'
         to={'/movie'}
       >
-        <MdLocalMovies
-         
-          size={40}
-        />
-      </NavLink>
-      <NavLink
+        <MdLocalMovies size={40} />
+      </Link>
+      <Link
         className='link'
         to={'/series'}
       >
-        <BsPersonVideo
-         
-          size={30}
-        />
-      </NavLink>
+        <BsPersonVideo size={30} />
+      </Link>
       <div className='user'>
-        <NavLink
+        <Link
           className='link'
           to={'/'}
         >
@@ -48,7 +40,7 @@ const Nav = () => {
             color='#ffffff'
             size={40}
           />
-        </NavLink>
+        </Link>
       </div>
     </nav>
   )

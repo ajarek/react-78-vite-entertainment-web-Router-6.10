@@ -8,7 +8,6 @@ import './Dashboard.css'
 import ScrollContainer from 'react-indiana-drag-scroll'
 
 const Dashboard = () => {
-  console.log(data)
 
   return (
     <div className='dashboard'>
@@ -17,7 +16,7 @@ const Dashboard = () => {
      
       <ScrollContainer vertical={false} className="scroll-container">
         {data.map((dt) => {
-          if (dt.id <= 3) {
+          if (Number(dt.id) <= 3) {
             return (
               <div
                 className='wrapper-data'
@@ -43,7 +42,7 @@ const Dashboard = () => {
       <h2>Recommended for you</h2>
       <div className='dashboard-wrapper'>
         {data.map((dt) => {
-          if (dt.id > 3) {
+          if (Number(dt.id) > 3) {
             return (
               <div
                 className='wrapper-data'
@@ -59,7 +58,7 @@ const Dashboard = () => {
                   <span className='type'>{dt.type==='Movie'?<MdMovie className='icon'/>:<BsPersonVideo className='icon'/>}{dt.type}<BsDot/></span>
                   <span>{dt.allowed}</span>
                 </div>
-                <p className='title'e>{dt.title}</p>
+                <p className='title'>{dt.title}</p>
               </div>
             )
           }
