@@ -1,0 +1,43 @@
+.series {
+  width: 100%;
+  min-height: 100vh;
+  padding: 16px 16px 16px 140px;
+}
+.series h2 {
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 300;
+}
+.series-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(238px, 1fr));
+  gap: 1rem;
+  place-content: center;
+  position: relative;
+}
+.wrapper-data{
+  position: relative;
+}
+.series img {
+  width: 100%;
+  object-fit: cover;
+  user-select: none;
+}
+.info-wrapper{
+  font-size: 0.9rem;
+  font-weight: 400;
+  display: flex;
+  color: #5a698f;
+}
+.info-wrapper .type{
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.title{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.icon{
+  margin-right: 5px;
+}

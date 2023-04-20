@@ -23,6 +23,27 @@
 .scroll-container .wrapper-data{
   position: relative;
 }
+.scroll-container .wrapper-data .mark,.wrapper-data .mark{
+  position: absolute;
+  right: 10px;
+  top:10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #5a698f;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color:white;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.scroll-container .wrapper-data .mark:hover,.wrapper-data .mark:hover{
+  color:#10141e;
+  background-color: #ffffff;
+}
 .scroll-container .wrapper-data .title{
   position: absolute;
   bottom:23px;
@@ -36,12 +57,16 @@
   left: 23px;
   font-size: 1rem;
   font-weight: 400;
+  color: #ffffff;
 }
 .dashboard-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(238px, 1fr));
   gap: 1rem;
   place-content: center;
+  position: relative;
+}
+.wrapper-data{
   position: relative;
 }
 .dashboard img {

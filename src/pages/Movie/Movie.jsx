@@ -4,45 +4,15 @@ import { BsPersonVideo } from 'react-icons/bs'
 import { MdMovie, MdLocalMovies } from 'react-icons/md'
 import data from '../../assets/data.json'
 import Search from '../../components/Search/Search'
-import './Dashboard.css'
-import ScrollContainer from 'react-indiana-drag-scroll'
-
-const Dashboard = () => {
-  console.log(data)
-
+import './Movie.css'
+const Movie = () => {
+  const dataMovie=data.filter((dt)=>dt.type==='Movie')
   return (
-    <div className='dashboard'>
-      <Search placeholder={'Search for movies or TV series'} />
-      <h2>Trending</h2>
-     
-      <ScrollContainer vertical={false} className="scroll-container">
-        {data.map((dt) => {
-          if (dt.id <= 3) {
-            return (
-              <div
-                className='wrapper-data'
-                key={dt.id}
-              > 
-               <button className="mark"><BsBookmark/></button>
-                <div className="info-wrapper">
-                  <span>{dt.year}<BsDot/></span>
-                  <span>{dt.type}<BsDot/></span>
-                  <span>{dt.allowed}</span>
-                </div>
-                <img
-                  src={dt.image}
-                  alt=''
-                />
-                <p className='title'>{dt.title}</p>
-              </div>
-            )
-          }
-        })}
-        </ScrollContainer>
-      
-      <h2>Recommended for you</h2>
+    <div className='movie'>
+       <Search placeholder={'Search for movies or TV series'} />
+           <h2>Movie</h2>
       <div className='dashboard-wrapper'>
-        {data.map((dt) => {
+        { dataMovie.map((dt) => {
           if (dt.id > 3) {
             return (
               <div
@@ -69,4 +39,4 @@ const Dashboard = () => {
   )
 }
 
-export default Dashboard
+export default Movie

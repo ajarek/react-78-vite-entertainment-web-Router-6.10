@@ -23,7 +23,7 @@ const Nav = () => {
       </NavLink>
       <NavLink
         className='link'
-        to={'/'}
+        to={'/movie'}
       >
         <MdLocalMovies
          
@@ -32,7 +32,7 @@ const Nav = () => {
       </NavLink>
       <NavLink
         className='link'
-        to={'/'}
+        to={'/series'}
       >
         <BsPersonVideo
          
