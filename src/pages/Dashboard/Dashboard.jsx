@@ -8,7 +8,7 @@ import Search from '../../components/Search/Search'
 import './Dashboard.css'
 import ScrollContainer from 'react-indiana-drag-scroll'
 export const dashboardLoader = () => {
-  const dataJson =data || []
+  const dataJson = data || []
   return dataJson
 }
 const Dashboard = () => {
