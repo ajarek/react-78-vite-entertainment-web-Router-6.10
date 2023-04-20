@@ -1,11 +1,19 @@
 import React, { useEffect, useState, useContext } from 'react'
+import { useLoaderData,  useNavigate } from 'react-router-dom'
 import { BsDot, BsBookmark } from 'react-icons/bs'
 import { BsPersonVideo } from 'react-icons/bs'
 import { MdMovie, MdLocalMovies } from 'react-icons/md'
 import data from '../../assets/data.json'
 import Search from '../../components/Search/Search'
 import './Movie.css'
+
+export const movieLoader = () => {
+  const dataJson =data || []
+  return dataJson
+}
+
 const Movie = () => {
+  const data = useLoaderData()
   const [searchValue, setSearchValue] = useState('')
   const dataMovie = data.filter((dt) => dt.type === 'Movie')
  

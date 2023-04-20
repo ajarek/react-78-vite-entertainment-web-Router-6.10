@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react'
+import { useLoaderData,  useNavigate } from 'react-router-dom'
 import { BsDot,BsBookmark } from 'react-icons/bs';
 import { BsPersonVideo } from 'react-icons/bs'
 import { MdMovie, MdLocalMovies } from 'react-icons/md'
@@ -7,7 +8,14 @@ import Search from '../../components/Search/Search'
 
 
 import './Series.css'
+
+export const seriesLoader = () => {
+  const dataJson =data || []
+  return dataJson
+}
+
 const Series = () => {
+  const data = useLoaderData()
   const [searchValue, setSearchValue] = useState('')
  const dataSeries=data.filter((dt)=>dt.type==='TV Series')
   return (
