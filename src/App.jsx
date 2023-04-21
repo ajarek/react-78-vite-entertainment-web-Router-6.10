@@ -4,7 +4,7 @@ import Main from './layouts/Main/Main'
 import Dashboard,{ dashboardLoader } from './pages/Dashboard/Dashboard'
 import Movie,{movieLoader} from './pages/Movie/Movie'
 import Series ,{seriesLoader} from './pages/Series/Series'
-import Favorites  from './pages/Favorites/Favorites'
+import Favorites,{favoritesLoader}  from './pages/Favorites/Favorites'
 import Error from './pages/Error/Error'
 export const AppContext = createContext()
 function App() {
@@ -35,6 +35,7 @@ function App() {
         },
         {
           path: '/favorites',
+          loader:favoritesLoader,
           element: <Favorites />,
           errorElement: <Error />,
         },

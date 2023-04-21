@@ -16,9 +16,9 @@ export const seriesLoader = () => {
 }
 
 const Series = () => {
-  const data = useLoaderData()
+  const dataLoader = useLoaderData()
   const [searchValue, setSearchValue] = useState('')
- const dataSeries=data.filter((dt)=>dt.type==='TV Series')
+ const dataSeries=dataLoader.filter((dt)=>dt.type==='TV Series')
  const { favorites, setFavorites } = useContext(AppContext)
   return (
     <div className='series'>

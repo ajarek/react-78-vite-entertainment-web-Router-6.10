@@ -4,13 +4,14 @@ import { useLoaderData,  useNavigate } from 'react-router-dom'
 import { BsDot,BsBookmark } from 'react-icons/bs';
 import { BsPersonVideo } from 'react-icons/bs'
 import { MdMovie, MdLocalMovies } from 'react-icons/md'
-import data from '../../assets/data.json'
+// import data from '../../assets/data.json'
 import Search from '../../components/Search/Search'
 import './Dashboard.css'
 import ScrollContainer from 'react-indiana-drag-scroll'
-export const dashboardLoader = () => {
-  const dataJson = data || []
-  return dataJson
+export const dashboardLoader =async () => {
+ let response=await fetch('src/assets/data.json')
+ let data =await  response.json();
+  return data
 }
 const Dashboard = () => {
 
@@ -32,7 +33,7 @@ const Dashboard = () => {
                 className='wrapper-data'
                 key={dt.id}
               > 
-               <button className="mark"><BsBookmark/></button>
+               <button className="mark" onClick={()=>setFavorites([...favorites,dt.id])}><BsBookmark/></button>
                 <div className="info-wrapper">
                   <span>{dt.year}<BsDot/></span>
                   <span>{dt.type}<BsDot/></span>

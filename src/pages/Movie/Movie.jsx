@@ -14,9 +14,9 @@ export const movieLoader = () => {
 }
 
 const Movie = () => {
-  const data = useLoaderData()
+  const dataLoader = useLoaderData()
   const [searchValue, setSearchValue] = useState('')
-  const dataMovie = data.filter((dt) => dt.type === 'Movie')
+  const dataMovie = dataLoader.filter((dt) => dt.type === 'Movie')
   const { favorites, setFavorites } = useContext(AppContext)
  
   return (
