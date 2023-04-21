@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react'
+import { AppContext } from '../../App'
 import { useLoaderData,  useNavigate } from 'react-router-dom'
 import { BsDot,BsBookmark } from 'react-icons/bs';
 import { BsPersonVideo } from 'react-icons/bs'
@@ -18,6 +19,7 @@ const Series = () => {
   const data = useLoaderData()
   const [searchValue, setSearchValue] = useState('')
  const dataSeries=data.filter((dt)=>dt.type==='TV Series')
+ const { favorites, setFavorites } = useContext(AppContext)
   return (
     <div className='series'>
       <Search placeholder={'Search for movies or TV series'} value={searchValue}
@@ -33,7 +35,7 @@ const Series = () => {
                 className='wrapper-data'
                 key={dt.id}
               >
-               <button className="mark"><BsBookmark/></button>
+               <button className="mark" onClick={()=>setFavorites([...favorites,dt.id])}><BsBookmark/></button>
                 <img
                   src={dt.image}
                   alt=''

@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react'
+import { AppContext } from '../../App'
 import { useLoaderData,  useNavigate } from 'react-router-dom'
 import { BsDot,BsBookmark } from 'react-icons/bs';
 import { BsPersonVideo } from 'react-icons/bs'
@@ -12,8 +13,11 @@ export const dashboardLoader = () => {
   return dataJson
 }
 const Dashboard = () => {
+
   const data = useLoaderData()
   const [searchValue, setSearchValue] = useState('')
+  const { favorites, setFavorites } = useContext(AppContext)
+  
   return (
     <div className='dashboard'>
       <Search placeholder={'Search for movies or TV series'}  value={searchValue}
@@ -56,7 +60,7 @@ const Dashboard = () => {
                 className='wrapper-data'
                 key={dt.id}
               >
-               <button className="mark"><BsBookmark/></button>
+               <button onClick={()=>setFavorites([...favorites,dt.id])} className="mark"><BsBookmark/></button>
                 <img
                   src={dt.image}
                   alt=''

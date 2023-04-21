@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { MdMovie, MdLocalMovies } from 'react-icons/md'
 import { SiWindows11 } from 'react-icons/si'
 import { ImUser } from 'react-icons/im'
-import { BsPersonVideo } from 'react-icons/bs'
+import { BsPersonVideo,BsBookmark } from 'react-icons/bs'
 import './Nav.css'
 
 const Nav = () => {
@@ -30,6 +30,12 @@ const Nav = () => {
         to={'/series'}
       >
         <BsPersonVideo size={30} />
+      </Link>
+      <Link
+        className='link'
+        to={'/favorites'}
+      >
+        <BsBookmark size={30} />
       </Link>
       <div className='user'>
         <Link
