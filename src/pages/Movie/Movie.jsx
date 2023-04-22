@@ -1,9 +1,9 @@
-import React, { useEffect, useState, useContext } from 'react'
+import React, { useState, useContext } from 'react'
 import { AppContext } from '../../App'
-import { useLoaderData, useNavigate } from 'react-router-dom'
+import { useLoaderData } from 'react-router-dom'
 import { BsDot, BsBookmark } from 'react-icons/bs'
 import { BsPersonVideo } from 'react-icons/bs'
-import { MdMovie, MdLocalMovies } from 'react-icons/md'
+import { MdMovie } from 'react-icons/md'
 import Search from '../../components/Search/Search'
 import './Movie.css'
 

@@ -1,17 +1,16 @@
-import React, { useEffect, useState, useContext } from 'react'
+import React, { useContext } from 'react'
 import { AppContext } from '../../App'
-import { useLoaderData,  useNavigate } from 'react-router-dom'
-import { BsDot, BsBookmark } from 'react-icons/bs'
+import { useLoaderData } from 'react-router-dom'
+import { BsDot } from 'react-icons/bs'
 import { BsPersonVideo } from 'react-icons/bs'
-import { MdMovie, MdLocalMovies } from 'react-icons/md'
+import { MdMovie } from 'react-icons/md'
 import './Favorites.css'
 
-export const favoritesLoader = async() => {
-  let response=await fetch('src/assets/data.json')
- let dataJson =await  response.json();
+export const favoritesLoader = async () => {
+  let response = await fetch('src/assets/data.json')
+  let dataJson = await response.json()
   return dataJson
 }
-
 
 const Favorites = () => {
   const dataLoader = useLoaderData()

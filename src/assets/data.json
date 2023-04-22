@@ -1,246 +1,245 @@
 [
-  {  
+  {
     "id": "1",
-    "title":"Beyond Earth",
-    "year":"2019",
-    "type":"Movie",
-    "allowed":"PG",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fbeyond-earth%2Ftrending%2Flarge.jpg&w=1080&q=75"
-},
-{  
+    "title": "Beyond Earth",
+    "year": "2019",
+    "type": "Movie",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fbeyond-earth%2Ftrending%2Flarge.jpg&w=1080&q=75"
+  },
+  {
     "id": "2",
-    "title":"Undiscovered Cities",
-    "year":"2019",
-    "type":"TV Series",
-    "allowed":"E",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fundiscovered-cities%2Ftrending%2Flarge.jpg&w=1080&q=75"
-},
-{  
+    "title": "Undiscovered Cities",
+    "year": "2019",
+    "type": "TV Series",
+    "allowed": "E",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fundiscovered-cities%2Ftrending%2Flarge.jpg&w=1080&q=75"
+  },
+  {
     "id": "3",
-    "title":"Bottom Gear",
-    "year":"2021",
-    "type":"Movie",
-    "allowed":"PG",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fbottom-gear%2Ftrending%2Flarge.jpg&w=1080&q=75"
-},
-{  
+    "title": "Bottom Gear",
+    "year": "2021",
+    "type": "Movie",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fbottom-gear%2Ftrending%2Flarge.jpg&w=1080&q=75"
+  },
+  {
     "id": "4",
-    "title":"Earth`s Untouched",
-    "year":"2017",
-    "type":"Movie",
-    "allowed":"18",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fearths-untouched%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Earth`s Untouched",
+    "year": "2017",
+    "type": "Movie",
+    "allowed": "18",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fearths-untouched%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "5",
-    "title":"The Great Lands",
-    "year":"2019",
-    "type":"Movie",
-    "allowed":"PG",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fthe-great-lands%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "The Great Lands",
+    "year": "2019",
+    "type": "Movie",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fthe-great-lands%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "6",
-    "title":"The Diary",
-    "year":"2019",
-    "type":"TV Series",
-    "allowed":"PG",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fthe-diary%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "The Diary",
+    "year": "2019",
+    "type": "TV Series",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fthe-diary%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "7",
-    "title":"During the Hunt",
-    "year":"2016",
-    "type":"TV Series",
-    "allowed":"PG",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fduring-the-hunt%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "During the Hunt",
+    "year": "2016",
+    "type": "TV Series",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fduring-the-hunt%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "8",
-    "title":"Autosport the Series",
-    "year":"2016",
-    "type":"TV Series",
-    "allowed":"18G",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fautosport-the-series%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Autosport the Series",
+    "year": "2016",
+    "type": "TV Series",
+    "allowed": "18G",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fautosport-the-series%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "9",
-    "title":"Same Answer II",
-    "year":"2017",
-    "type":"Movie",
-    "allowed":"E",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fsame-answer-2%2Fregular%2Fmedium.jpg&w=640&q=75"
-},{  
-  "id": "10",
-  "title":"Below Echo",
-  "year":"2016",
-  "type":"TV Series",
-  "allowed":"PG",
-  "mark":"false",
-  "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fbelow-echo%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Same Answer II",
+    "year": "2017",
+    "type": "Movie",
+    "allowed": "E",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fsame-answer-2%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
+    "id": "10",
+    "title": "Below Echo",
+    "year": "2016",
+    "type": "TV Series",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fbelow-echo%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "11",
-    "title":"No Land Beyond",
-    "year":"2019",
-    "type":"Movie",
-    "allowed":"E",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fno-land-beyond%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "No Land Beyond",
+    "year": "2019",
+    "type": "Movie",
+    "allowed": "E",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fno-land-beyond%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "12",
-    "title":"Relentless",
-    "year":"2017",
-    "type":"Movie",
-    "allowed":"PG",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Frelentless%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Relentless",
+    "year": "2017",
+    "type": "Movie",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Frelentless%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "13",
-    "title":"Community of Ours",
-    "year":"2018",
-    "type":"TV Series",
-    "allowed":"18",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fcommunity-of-ours%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Community of Ours",
+    "year": "2018",
+    "type": "TV Series",
+    "allowed": "18",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fcommunity-of-ours%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "14",
-    "title":"Van Life",
-    "year":"2015",
-    "type":"Movie",
-    "allowed":"PG",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fvan-life%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Van Life",
+    "year": "2015",
+    "type": "Movie",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fvan-life%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "15",
-    "title":"The Heiress",
-    "year":"2021",
-    "type":"Movie",
-    "allowed":"PG",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fthe-heiress%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "The Heiress",
+    "year": "2021",
+    "type": "Movie",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fthe-heiress%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "16",
-    "title":"Off the Track",
-    "year":"2017",
-    "type":"Movie",
-    "allowed":"18",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Foff-the-track%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Off the Track",
+    "year": "2017",
+    "type": "Movie",
+    "allowed": "18",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Foff-the-track%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "17",
-    "title":"The Rockies",
-    "year":"2015",
-    "type":"TV Series",
-    "allowed":"E",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fthe-rockies%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "The Rockies",
+    "year": "2015",
+    "type": "TV Series",
+    "allowed": "E",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fthe-rockies%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "18",
-    "title":"Lone Heart",
-    "year":"2017",
-    "type":"Movie",
-    "allowed":"E",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fthe-rockies%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Lone Heart",
+    "year": "2017",
+    "type": "Movie",
+    "allowed": "E",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fthe-rockies%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "19",
-    "title":"Production Line",
-    "year":"2018",
-    "type":"TV Series",
-    "allowed":"PG",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fproduction-line%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Production Line",
+    "year": "2018",
+    "type": "TV Series",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fproduction-line%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "20",
-    "title":"Asia in 24 Days",
-    "year":"2020",
-    "type":"TV Series",
-    "allowed":"PG",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fasia-in-24-days%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Asia in 24 Days",
+    "year": "2020",
+    "type": "TV Series",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fasia-in-24-days%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "21",
-    "title":"Dogs",
-    "year":"2016",
-    "type":"TV Series",
-    "allowed":"E",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fdogs%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Dogs",
+    "year": "2016",
+    "type": "TV Series",
+    "allowed": "E",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fdogs%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "22",
-    "title":"112",
-    "year":"2013",
-    "type":"TV Series",
-    "allowed":"PG",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2F112%2Fregular%2Fmedium.jpg&w=640&q=75"
-},{  
-  "id": "23",
-  "title":"The Tasty Tour",
-  "year":"2016",
-  "type":"TV Series",
-  "allowed":"PG",
-  "mark":"false",
-  "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fthe-tasty-tour%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "112",
+    "year": "2013",
+    "type": "TV Series",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2F112%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
+    "id": "23",
+    "title": "The Tasty Tour",
+    "year": "2016",
+    "type": "TV Series",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fthe-tasty-tour%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "24",
-    "title":"Whispering Hill",
-    "year":"2017",
-    "type":"Movie",
-    "allowed":"E",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fwhispering-hill%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Whispering Hill",
+    "year": "2017",
+    "type": "Movie",
+    "allowed": "E",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fwhispering-hill%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "25",
-    "title":"Mission: Saturn",
-    "year":"2017",
-    "type":"Movie",
-    "allowed":"PG",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fmission-saturn%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Mission: Saturn",
+    "year": "2017",
+    "type": "Movie",
+    "allowed": "PG",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fmission-saturn%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "26",
-    "title":"Unresolved Cases",
-    "year":"2019",
-    "type":"TV Series",
-    "allowed":"18+",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Funresolved-cases%2Fregular%2Fmedium.jpg&w=640&q=75"
-},
-{  
+    "title": "Unresolved Cases",
+    "year": "2019",
+    "type": "TV Series",
+    "allowed": "18+",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Funresolved-cases%2Fregular%2Fmedium.jpg&w=640&q=75"
+  },
+  {
     "id": "27",
-    "title":"Darker",
-    "year":"2017",
-    "type":"Movie",
-    "allowed":"18+",
-    "mark":"false",
-    "image":"https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fdarker%2Fregular%2Fmedium.jpg&w=640&q=75"
-}
-
-
-
+    "title": "Darker",
+    "year": "2017",
+    "type": "Movie",
+    "allowed": "18+",
+    "mark": "false",
+    "image": "https://entertainment-web-d59ltoh5x-aleksfedotov1.vercel.app/_next/image?url=%2Fassets%2Fthumbnails%2Fdarker%2Fregular%2Fmedium.jpg&w=640&q=75"
+  }
 ]

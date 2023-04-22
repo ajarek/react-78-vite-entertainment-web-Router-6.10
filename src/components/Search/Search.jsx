@@ -4,7 +4,7 @@ import './Search.css'
 const Search = ({ value, onChange, placeholder }) => {
   return (
     <div className='search'>
-      <BiSearch size={30}/>
+      <BiSearch size={30} />
       <input
         className='search-input'
         type='search'
