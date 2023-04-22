@@ -13,7 +13,7 @@
   background: #161d2f;
   z-index: 2;
   border-radius: 20px;
-  font-size: 2rem;
+  
   
 }
 
@@ -40,6 +40,14 @@ padding-top: 10px;
 .link:focus{
   color: #fc4747;
 }
-
+@media (max-width:505px) {
+ .nav{
+  height: 40px;
+  width:85%;
+  flex-direction: row;
+  gap: 0px;
+  justify-content:space-evenly;
+ } 
+}
 
 

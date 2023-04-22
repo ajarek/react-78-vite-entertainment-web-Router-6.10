@@ -63,3 +63,8 @@ position: absolute;
   color:#10141e;
   background-color: #ffffff;
 }
+@media (max-width:505px) {
+  .favorites{
+    padding:100px 5px 10px 5px;
+  }
+}

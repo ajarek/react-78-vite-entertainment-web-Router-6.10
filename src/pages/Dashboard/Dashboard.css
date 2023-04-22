@@ -13,9 +13,9 @@
   display: grid;
   grid-template-columns: repeat(3, 470px);
   gap: 1rem;
-  place-content: center;
+  place-content:start;
   overflow: hidden;
-  padding-left: 340px;
+  
   cursor: grabbing;
   transition: all 0.6s ease-in-out;
  
@@ -92,4 +92,20 @@ align-items: center;
 }
 .icon{
   margin-right: 5px;
+}
+@media (max-width:505px) {
+  .dashboard{
+    padding:100px 5px 10px 5px;
+  }
+  .scroll-container {
+    grid-template-columns: repeat(3, 100%);
+    
+    
+  }
+  .dashboard h2 {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 300;
+  }
+  
 }
