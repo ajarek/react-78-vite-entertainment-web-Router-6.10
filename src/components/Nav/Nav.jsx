@@ -16,24 +16,28 @@ const Nav = () => {
       <Link
         className={'link'}
         to={'/'}
+        aria-label='takes you to the start page'
       >
         <SiWindows11 size={25} />
       </Link>
       <Link
         className='link'
         to={'/movie'}
+        aria-label='transfers to movies'
       >
         <MdLocalMovies size={40} />
       </Link>
       <Link
         className='link'
         to={'/series'}
+        aria-label='moves to series'
       >
         <BsPersonVideo size={30} />
       </Link>
       <Link
         className='link'
         to={'/favorites'}
+        aria-label='transfer to your favorite movies and series'
       >
         <BsBookmark size={30} />
       </Link>
@@ -41,6 +45,7 @@ const Nav = () => {
         <Link
           className='link'
           to={'/'}
+          aria-label='takes you to the start page'
         >
           <ImUser
             color='#ffffff'

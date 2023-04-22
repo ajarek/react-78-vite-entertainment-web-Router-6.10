@@ -1,14 +1,14 @@
 import React, { useEffect, useState, useContext } from 'react'
 import { AppContext } from '../../App'
 import { useLoaderData,  useNavigate } from 'react-router-dom'
-import data from '../../assets/data.json'
 import { BsDot, BsBookmark } from 'react-icons/bs'
 import { BsPersonVideo } from 'react-icons/bs'
 import { MdMovie, MdLocalMovies } from 'react-icons/md'
 import './Favorites.css'
 
-export const favoritesLoader = () => {
-  const dataJson =data || []
+export const favoritesLoader = async() => {
+  let response=await fetch('src/assets/data.json')
+ let dataJson =await  response.json();
   return dataJson
 }
 
@@ -35,6 +35,7 @@ const Favorites = () => {
                   id={dt.id}
                   onClick={deleteItem}
                   className='delete'
+                  aria-label='remove favorites movies'
                 >
                   ❌
                 </button>

@@ -1,15 +1,15 @@
 import React, { useEffect, useState, useContext } from 'react'
 import { AppContext } from '../../App'
-import { useLoaderData,  useNavigate } from 'react-router-dom'
+import { useLoaderData, useNavigate } from 'react-router-dom'
 import { BsDot, BsBookmark } from 'react-icons/bs'
 import { BsPersonVideo } from 'react-icons/bs'
 import { MdMovie, MdLocalMovies } from 'react-icons/md'
-import data from '../../assets/data.json'
 import Search from '../../components/Search/Search'
 import './Movie.css'
 
-export const movieLoader = () => {
-  const dataJson =data || []
+export const movieLoader = async () => {
+  let response = await fetch('src/assets/data.json')
+  let dataJson = await response.json()
   return dataJson
 }
 
@@ -18,13 +18,13 @@ const Movie = () => {
   const [searchValue, setSearchValue] = useState('')
   const dataMovie = dataLoader.filter((dt) => dt.type === 'Movie')
   const { favorites, setFavorites } = useContext(AppContext)
- 
+
   return (
     <div className='movie'>
       <Search
         placeholder={'Search for movies or TV series'}
         value={searchValue}
-        onChange={(e)=>setSearchValue(e.target.value)}
+        onChange={(e) => setSearchValue(e.target.value)}
       />
       <h2>Movie</h2>
       <div className='dashboard-wrapper'>
@@ -39,7 +39,11 @@ const Movie = () => {
                   className='wrapper-data'
                   key={dt.id}
                 >
-                  <button className='mark'onClick={()=>setFavorites([...favorites,dt.id])}>
+                  <button
+                    className='mark'
+                    onClick={() => setFavorites([...favorites, dt.id])}
+                    aria-label='mark favorites movies'
+                  >
                     <BsBookmark />
                   </button>
                   <img
